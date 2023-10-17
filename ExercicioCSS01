@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Buttons</p>
+    <p class="container"><button class="PrimaryButton">Primary Button</button></p>
+    <p class="container"><button class="PrimaryButton">Primary Button</button></p>
+    <p class="container"><button class="SecondaryButton">Secondary Button</button></p>
+    <button class="SecondaryButton">Secondary Button</button>
+
+
+    <style>
+     .PrimaryButton{
+        color: white;
+        background-color: darkblue;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+    
+     }
+     .SecondaryButton{
+        color: black;
+        background-color: lightgray;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+     }
+     
+     .container{
+      display: flex;
+      gap: 20px;
+     }
+
+
+
+    </style>
+</body>
+</html>
