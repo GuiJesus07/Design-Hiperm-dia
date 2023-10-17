@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
+    <div> 
     <p>Buttons</p>
-    <p class="container"><button class="PrimaryButton">Primary Button</button></p>
-    <p class="container"><button class="PrimaryButton">Primary Button</button></p>
-    <p class="container"><button class="SecondaryButton">Secondary Button</button></p>
-    <button class="SecondaryButton">Secondary Button</button>
-
+    <pre><h3>Default                       Hovered</h3></pre>
+    <p class="container"><button class="PrimaryButton" id="botao1">Primary Button</button><button class="PrimaryButton" id="botao2">Primary Button</button></p>
+    <p class="container"><button class="SecondaryButton" id="botao3">Secondary Button</button><button class="SecondaryButton" id="botao4">Secondary Button</button></p>
+    </div>
+   <div>
+    <p>Inputs</p>
+    <form action="">
+   <label for="NomeCompleto"><div><strong>Full name</strong></div></label>
+   <input type="text" placeholder="ex: Lida Owen" id="NomeCompleto"> 
+   <p></p>
+   <label for="Nome"><div><strong>Your name</strong></div></label>
+   <input type="text" placeholder="Anthony Webb" id="Nome">
+   <p></p>
+   <label for="Password"><div><strong>Password name</strong></div></label>
+   <input type="text" placeholder="5+ characters" id="Password">
+   <p> </p>
+   <label for="Email"><div><strong>Email Adress</strong></div></label>
+   <input type="email" value="myemail@adress.com" id="Email">    
+    </form>
+   </div>
+   <br>
+   <div>
+   <p>Cards</p>
+   <pre><h3>  Default Card Background                      Hovered Card Background</h3></pre>
+   </div>
+   
 
     <style>
      .PrimaryButton{
@@ -23,18 +45,26 @@
     
      }
      .SecondaryButton{
+        
         color: black;
         background-color: lightgray;
         height: 40px;
         width: 200px;
         border-radius: 5px;
      }
-     
+     #botao2:hover{
+        background-color: black;
+     }
+    #botao4:hover{
+        background-color: white;
+    }
      .container{
       display: flex;
       gap: 20px;
      }
-
+    .body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
 
     </style>
