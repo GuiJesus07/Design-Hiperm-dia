@@ -7,13 +7,13 @@
 </head>
 <body class="body">
     <div> 
-    <p>Buttons</p>
-    <pre><h3>Default                       Hovered</h3></pre>
+    <p class="title">Buttons</p>
+    <pre><h3>     Default                       Hovered</h3></pre>
     <p class="container"><button class="PrimaryButton" id="botao1">Primary Button</button><button class="PrimaryButton" id="botao2">Primary Button</button></p>
     <p class="container"><button class="SecondaryButton" id="botao3">Secondary Button</button><button class="SecondaryButton" id="botao4">Secondary Button</button></p>
     </div>
-   <div>
-    <p>Inputs</p>
+    <p class="title">Inputs</p>
+   <div class="inputs">
     <form action="">
    <label for="NomeCompleto"><div><strong>Full name</strong></div></label>
    <input type="text" placeholder="ex: Lida Owen" id="NomeCompleto"> 
@@ -30,13 +30,35 @@
    </div>
    <br>
    <div>
-   <p>Cards</p>
-   <pre><h3>  Default Card Background                      Hovered Card Background</h3></pre>
+   <p class="title">Cards</p>
+   <pre><h3>    Default Card Background                        Hovered Card Background</h3></pre>
+   <div class="card"></div><div class="card2"></div>
+  </div>
+   <div class="cores">
+
+
+
+
+
    </div>
-   
 
     <style>
+    .inputs{
+    margin: 10px;
+    }
+     .body{
+        margin: 0px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .title{
+    background-color: lightblue;
+    width: 100px;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+     }
      .PrimaryButton{
+        margin: 10px;
         color: white;
         background-color: darkblue;
         height: 40px;
@@ -45,7 +67,7 @@
     
      }
      .SecondaryButton{
-        
+        margin: 10px;
         color: black;
         background-color: lightgray;
         height: 40px;
@@ -59,14 +81,28 @@
         background-color: white;
     }
      .container{
+
       display: flex;
       gap: 20px;
      }
-    .body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     .card{
+        left: 20px;
+        position: relative;
+        width: 300px;
+        height: 200px;
+    box-shadow:  10px 10px 45px -14px rgba(0, 0, 0, 0.75);    
     }
-
-
+    .card2{
+        position: relative;
+        left: 400px;
+        bottom: 200px;
+        width: 300px;
+        height: 200px;
+        box-shadow: 10px 10px 45px -14px rgba(0, 0, 0, 0.884);
+    }
+    .cores{
+        
+    }
     </style>
 </body>
 </html>
