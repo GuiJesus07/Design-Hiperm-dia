@@ -34,19 +34,125 @@
    <pre><h3>    Default Card Background                        Hovered Card Background</h3></pre>
    <div class="card"></div><div class="card2"></div>
   </div>
+   <p class="title">Colors</p>
+   <br>
    <div class="cores">
 
-
-
-
+   <div class="quadrado" id="quadrado1">#242E4C</div>
+   <div class="quadrado" id="quadrado2">#738BFD</div>
+   <div class="quadrado" id="quadrado3">#F55623</div>
+   <div class="quadrado" id="quadrado4">#767E96</div>
+   <div class="quadrado" id="quadrado5">#E9EAED</div>
+   <div class="quadrado" id="quadrado6">#F3F4F6</div>
+   
+   </div>
+   <br>
+   <br>
+   <div class="Fonts">
+   <p class="title">Fonts</p>
+   
+   <h1>Page Title | 28px Bold #1E1A50</h1>
+   <h2>Secondary Title | 16px Bold #1E1A50</h2>
+   <h3>Tertiary Title | 14px Bold #1A2950</h3>
+   <h4 style="color: #738BFD;">Link | Montserrat 14px Medium #738BFD</h4>
+   <h4 style="color: #767E96;">Input PlaceHolder | 14px Medium #767E96</h4>
+   <h4 style="color: #1a2950;">Basic paragraph | 12px Medium #1A2950</h4>
+   <h4 style="color: #767E96;">Board Summary Label | 12px Medium #767E96</h4>
+   <h4 style="color: #F55623;">Alert Message | 12px Medium #F55623</h4>
 
    </div>
+   <br>
+   <p class="title">Icons</p>
+   <div class="icons">
+   <svg xmlns="http://www.w3.org/2000/svg" width="50px" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+    </svg>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="50px " viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+        <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
+      </svg>
 
+    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="100px" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path d="M290.7 57.4L57.4 290.7c-25 25-25 65.5 0 90.5l80 80c12 12 28.3 18.7 45.3 18.7H288h9.4H512c17.7 0 32-14.3 32-32s-14.3-32-32-32H387.9L518.6 285.3c25-25 25-65.5 0-90.5L381.3 57.4c-25-25-65.5-25-90.5 0zM297.4 416H288l-105.4 0-80-80L227.3 211.3 364.7 348.7 297.4 416z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" clip-rule="evenodd" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z" />
+      </svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+      </svg>
+    
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+      </svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h2.25a3 3 0 013 3v2.25a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm9.75 0a3 3 0 013-3H18a3 3 0 013 3v2.25a3 3 0 01-3 3h-2.25a3 3 0 01-3-3V6zM3 15.75a3 3 0 013-3h2.25a3 3 0 013 3V18a3 3 0 01-3 3H6a3 3 0 01-3-3v-2.25zm9.75 0a3 3 0 013-3H18a3 3 0 013 3V18a3 3 0 01-3 3h-2.25a3 3 0 01-3-3v-2.25z" clip-rule="evenodd" />
+      </svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+      </svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path d="M160 80H512c8.8 0 16 7.2 16 16V320c0 8.8-7.2 16-16 16H490.8L388.1 178.9c-4.4-6.8-12-10.9-20.1-10.9s-15.7 4.1-20.1 10.9l-52.2 79.8-12.4-16.9c-4.5-6.2-11.7-9.8-19.4-9.8s-14.8 3.6-19.4 9.8L175.6 336H160c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16zM96 96V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120zm208 24a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/>
+    </svg>
+
+   </div>
+   
     <style>
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }
+    .cores{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .quadrado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border: solid 1px black;
+    }
+    #quadrado1{
+    background-color: #242E4C;
+    }
+    #quadrado2{
+     background-color: #738BFD;   
+    }
+    #quadrado3{
+        background-color: #F55623;
+    }
+    #quadrado4{
+        background-color: #767E96;
+    }
+    #quadrado5{
+        background-color: #E9EAED;
+    }
+    #quadrado6{
+        background-color: #F3F4F6;
+    }
     .inputs{
     margin: 10px;
     }
      .body{
+        padding: 0px;
         margin: 0px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      }
