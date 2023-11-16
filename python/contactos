@@ -1,0 +1,44 @@
+import json
+
+def AdicionarContactos():
+    contactos = []
+    resposta = input("Quer adicionar um novo contacto? ")
+    while resposta == "sim":
+      if resposta == "nao":
+          break
+        
+      
+      nome = input("Adicione o seu nome: ")
+      numero = input("Adicione o seu número: ")
+      email  = input("Adicione o seu email: ")
+
+      contactos = {
+         'nome' : nome,
+        'numero' : numero,
+        'email' : email
+     }
+    contactos.append(contactos)
+    return contactos
+
+
+
+
+def save(contactos): #generalista
+    try:
+        with open(contactos, 'w') as f: #modo w -write a - append r - read 
+            json.dump(lista, f, indent=4)
+    except:
+        print("\nErro: não foi possível abrir o ficheiro")
+    else:
+        print("\nFicheiro escrito com sucesso")
+
+def load(filename):
+    try:
+        with open(filename, 'r') as f:
+            data = json.load(f)
+    except:
+        print("\nErro: não foi possível abrir o ficheiro")
+        return []
+    else:
+        return data
+    
