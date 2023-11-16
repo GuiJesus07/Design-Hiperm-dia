@@ -1,0 +1,37 @@
+
+import json
+
+#functions
+def fillLista(ListaQQCOisa):
+    ListaQQCOisa += [{'nome' : 'Alberto', 'idade' : 25}] 
+    ListaQQCOisa += [{'nome' : 'Maria', 'idade' : 33}] 
+    ListaQQCOisa += [{'nome' : 'Manel', 'idade' : 18}] 
+    ListaQQCOisa += [{'nome' : 'Caloiro', 'idade' : 54}]
+
+def save(lista, filename): #generalista
+    try:
+        with open(filename, 'w') as f: #modo w -write a - append r - read 
+            json.dump(lista, f, indent=4)
+    except:
+        print("\nErro: não foi possível abrir o ficheiro")
+    else:
+        print("\nFicheiro escrito com sucesso")
+
+def load(filename):
+    try:
+        with open(filename, 'r') as f:
+            data = json.load(f)
+    except:
+        print("\nErro: não foi possível abrir o ficheiro")
+        return []
+    else:
+        return data
+
+
+#variaveis
+
+filename = "teste.json"
+listaQQCoisa = load(filename)
+#fillLista(listaQQCoisa)
+print(listaQQCoisa)
+#save(listaQQCoisa, filename)
